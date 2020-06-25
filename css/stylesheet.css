@@ -1,0 +1,69 @@
+html {
+    font-family: 'Oxygen', sans-serif;
+}
+body{
+    height: 10em;
+    position: relative
+}
+
+h1{
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+a{
+    font-family: 'Oxygen', sans-serif;
+}
+.head1text{
+    font-weight: bolder;
+    background: -webkit-linear-gradient(left, #3BB3E5, #80BB00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}
+#receiverid{
+    color: #80BB00;
+}
+.selfM{
+    color: #32617A;
+    font-weight: bold;
+
+}
+.peerMessage{
+    color: #80BB00;
+    font-weight: bold;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 30px 80px 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    font-family: 'Oxygen', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    /*filler div*/
+}
+.div3 { grid-area: 2 / 1 / 3 / 2; }
+.div4 { grid-area: 2 / 2 / 3 / 3; }
+.div5 {
+    grid-area: 3 / 1 / 4 / 2;
+    /*filler div*/
+}
+.div6 { grid-area: 3 / 2 / 4 / 3; }
